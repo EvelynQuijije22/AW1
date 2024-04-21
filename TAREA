@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evelyn Quijije - Hoja de Vida</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>HOJA DE VIDA</h1>
+    <img src="Evelyn22.jpeg.jpeg" alt="Imagen">
+  </header>
+  <div class="container">
+    <div>
+      <h2>Nombre completo</h2>
+      <p>Evekyn Katiuska Quijije Leones</p>
+    </div>
+    <div>
+      <h2>Fecha de nacimiento</h2>
+      <p>22 de Enero del 2003</p>
+    </div>
+  </div>
+</body>
+
+  <div id="datos-personales">
+    <h2>Datos Personales</h2>
+    <table>
+      <tr>
+        <th>Cédula</th>
+        <td>1316998093</td>
+      </tr>
+      <tr>
+        <th>Celular</th>
+        <td>0963944986</td>
+      </tr>
+      <tr>
+        <th>Estado Civil</th>
+        <td>Soltera</td>
+      </tr>
+      <tr>
+        <th>Dirección</th>
+        <td>Urb. Cielito Lindo</td>
+      </tr>
+      <tr>
+        <th>Ciudad</th>
+        <td>Manta</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="experiencia-laboral">
+    <h2>Experiencia Laboral</h2>
+    <ul>
+      <li>Venta y facturacion en el comercial DARMACIO</li>
+      <LI>Atencion al cliente- Restaurante Poolwings</LI>
+    </ul>
+  </div>
+
+  <div id="estudios-realizados">
+    <h2>Estudios Realizados</h2>
+    <ul>
+      <li>Estudios de Segundo Nivel</li>
+    </ul>
+  </div>
+
+  <div id="capacitaciones">
+    <h2>Capacitaciones</h2>
+    <ul>
+      <li>Cisco Linux</li>
+    </ul>
+  </div>
+
+  <div id="referencias">
+    <h2>Referencias Personales</h2>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Cargo/Profesión</th>
+        <th>Teléfono</th>
+        <th>Correo Electrónico</th>
+      </tr>
+      <tr>
+        <th>Gabriela Quijije</th>
+        <th>Economista</th>
+        <th>0985057002</th>
+        <th>gsql1210@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Edwin Quijije</th>
+        <th>Administrador</th>
+        <th>0985837971</th>
+        <th>egqt73@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Tatiana Menendez</th>
+        <th>Abogada</th>
+        <th>0986972638</th>
+        <th>taty1980@hotmail.com</th>
+      </tr>
+    </table>
+  </div>
+  <footer>
+    <p>&copy; 2024 Quijije Leones Evelyn Katiuska</p>
+  </footer>
+</body>
+</html>
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 150px;
+    height: auto;
+    border-radius: 30%;
+    order: 2; /* Cambia el orden de la imagen */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row; /* Cambia a fila */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    width: 80%; /* Ajusta el ancho del contenedor */
+  }
+  
+  div {
+    padding: 20px;
+    border: 1px solid #000000;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(50% - 20px); /* Ajusta el ancho de los cuadros */
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    background-color: rgba(199, 122, 230, 0.755);
+    width: 100%; /* Asegura que el color de fondo cubra toda la anchura */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 5px;
+    border: 1px solid #b181cf;
+    text-align: left;
+  }
+  
